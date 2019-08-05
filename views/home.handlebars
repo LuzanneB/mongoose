@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="/">Mongo Scraper</a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
     aria-label="Toggle navigation">
@@ -16,10 +16,10 @@
         <a class="nav-link" href="/saved">Saved Articles</a>
       </li>
       <li class="nav-item">
-        <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
+        <a class="btn btn-info scrape-new">SCRAPE NEW ARTICLES!</a>
       </li>
       <li class="nav-item">
-        <a class="btn btn-danger clear">CLEAR ARTICLES!</a>
+        <a class="btn btn-info clear">CLEAR ARTICLES!</a>
       </li>
     </ul>
   </div>
@@ -41,7 +41,7 @@
     <div class="card-header">
       <h3>
         <a class="article-link" target="_blank" rel="noopener noreferrer" href="{{this.url}}">{{this.headline}}</a>
-        <a class="btn btn-success save">Save Article</a>
+        <a class="btn btn-info save">Save Article</a>
       </h3>
     </div>
     <div class="card-body">{{this.summary}}</div>
