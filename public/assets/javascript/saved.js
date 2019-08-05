@@ -48,7 +48,7 @@ $(document).ready(function() {
         $("<a class='article-link' target='_blank' rel='noopener noreferrer'>")
           .attr("href", article.url)
           .text(article.headline),
-        $("<a class='btn btn-danger delete'>Delete From Saved</a>"),
+        $("<a class='btn btn-info delete'>Delete From Saved</a>"),
         $("<a class='btn btn-info notes'>Article Notes</a>")
       )
     );
@@ -149,7 +149,7 @@ $(document).ready(function() {
         $("<hr>"),
         $("<ul class='list-group note-container'>"),
         $("<textarea placeholder='New Note' rows='4' cols='60'>"),
-        $("<button class='btn btn-success save'>Save Note</button>")
+        $("<button class='btn btn-info save'>Save Note</button>")
       );
       // Adding the formatted HTML to the note modal
       bootbox.dialog({
